@@ -29,7 +29,7 @@ HTML – structure and form elements
 CSS – styling, layout, responsive design
 
 ## 🚀 How to Use
-<a href="">Click here to view the project</a>
+<a href="https://midnight-developer-ts.github.io/survey-form/">Click here to view the project</a>
 
 Or clone/download this repository and open index.html in your browser.
 
