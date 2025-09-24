@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/styles.css"></link>
+        <link rel="icon" type="image/png" href="https://example.com/favicon.png">
+        <title>Survey Form</title>
+        <meta name="description" content="Take our survey to help us improve our website!">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Survey Form">
+        <meta property="og:description" content="Help us improve our site by filling out our survey.">
+        <meta property="og:image" content="https://midnight-developer-ts.github.io/images/survey-share.png">
+        <meta property="og:url" content="https://midnight-developer-ts.github.io/survey-form/">
+        <meta property="og:type" content="website">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title">Midnight Developers <br>Survey Form</h1>
+                <p id="description">Please provide your feedback on my website development and services. Your honest input helps me improve and deliver better results.</p>
+            </header>
+            <form id="survey-form" onsubmit="event.preventDefault(); alert('Thanks for testing my survey form! This is a demo project.');">
+                <div class="form-group">
+                    <label id="name-label" type="text">Name</label>
+                    <input id="name" type="text" name="name" maxlength="100" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" type="text">Email</label>
+                    <input id="email" type="email" name="email" maxlength="254" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label id="number-label" type="text">Age (optional)</label>
+                    <input id="number" type="number" min="1" max="99" name="age" class="form-control" placeholder="Age" required>
+                </div>
+                <div class="form-group">
+                    <p id="role" name="role" class="form-control">Which of the following best describes you?</p>
+                    <select id="dropdown" type="dropdown" name="role" class="form-control" required>
+                    <option>Select current role</option>
+                    <option value="Client">Client</option>
+                    <option value="Employer">Employer</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Other">Other</option></select>
+                </div>
+                <div class="form-group">
+                    <p>Would you recommend my services or website development to a colleague or client?</p>
+                    <label><input name="Recommend-Friend" value="Yes" type="radio" class="input radio" checked>Yes</label>
+                    <label><input name="Recommend-Friend" value="No" type="radio" class="input radio">No</label>
+                </div>
+                <div class="form-group">
+                    <p>What do you like most about our websites? (Select all that apply)</p>
+                    <label><input name="prefer" value="Design" type="checkbox" class="input-checkbox">Design & Appearance</label>
+                    <label><input name="prefer" value="Navigation" type="checkbox" class="input-checkbox">Navigation</label>
+                    <label><input name="prefer" value="Content" type="checkbox" class="input-checkbox">Content</label>
+                    <label><input name="prefer" value="Content" type="checkbox" class="input-checkbox">Content</label>
+                    <label><input name="prefer" value="Performance" type="checkbox" class="input-checkbox">Performance & Speed</label>
+                    <label><input name="prefer" value="Mobile" type="checkbox" class="input-checkbox">Mobile / Responsive Layout</label>
+                </div>
+                <div class="form-group">
+                    <p>Do you have any suggestions to improve our websites?</p>
+                    <textarea id="comments" class="input-textarea" name="comments" maxlength="700" placeholder="Enter comments & suggestions here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button id="submit" type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+        <footer class="footer-dev">© 2025 | ♥ Designed By <a href="https://linktr.ee/midnightdeveloper">Midnight Developer</a></footer>
+    </body>
+</html>

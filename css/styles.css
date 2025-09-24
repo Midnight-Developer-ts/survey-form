@@ -1,0 +1,161 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/coding-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Container for the form */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 4rem auto 0.5rem auto;
+  padding: 1rem 3rem;
+  font-family: 'Oxanium', sans-serif;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 15px 40px rgba(204, 0, 255, 0.5);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+}
+/* Header styles */
+.header {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-shadow: 0 0 5px red;
+}
+
+.header p {
+  font-size: 1rem;
+  font-family: 'Oxanium', sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+/* Form elements */
+.form-group {
+  margin-bottom: 1rem;  
+  display: flex;
+  flex-direction: column;
+}
+
+label, 
+.form-group p {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Oxanium', sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid red;
+  box-shadow: 0 0 10px purple;
+  background-color: black;
+  transition: border-color 0.3s ease;
+}
+
+select {
+  cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: white;
+}
+/* Radio and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 1rem;
+  cursor: pointer;
+  accent-color: red;
+}
+/* Textarea */
+textarea {
+  min-height: 150px;  
+  resize: none;
+}
+/* Submit button */
+.submit-button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Oxanium', sans-serif;
+  cursor: pointer;
+	border-radius: 0.5rem;
+	border: none;
+	color: white;
+	text-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px black;
+	background-color: red;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+	background-color: purple;
+}
+
+.footer-dev {
+	margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+  font-family: 'Oxianium', sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+
+.footer-dev a {
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+	text-shadow: 0 0 5px black;
+	transition: color 0.3s ease;
+}
+
+.footer-dev a:hover {
+	text-decoration: underline;
+}
+/* responsive for small screens */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+}
