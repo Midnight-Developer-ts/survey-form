@@ -7,7 +7,6 @@ The objective was to build a survey form using only HTML and CSS.
 The form is designed to collect user feedback regarding website development and services. It focuses on clean structure, accessibility, and a responsive layout that works seamlessly across devices.
 
 ## ✨ Features
-
 - Responsive design that adapts to desktop and mobile screens.
 
 - Input fields with validation (name, email, age).
@@ -25,7 +24,6 @@ The form is designed to collect user feedback regarding website development and 
 - Blurred, darkened background effect for readability.
 
 ## 🛠️ Built With
-
 HTML – structure and form elements
 
 CSS – styling, layout, responsive design
@@ -59,8 +57,13 @@ survey-form/
 │── README.md   # project details
 
 ## 📌 Learning Goals
-Practice implementing algorithmic thinking in JavaScript.
+- Practice semantic HTML form structure.
 
-Strengthen knowledge of loops, conditionals, and object mappings.
+- Learn to style inputs, dropdowns, radio buttons, and checkboxes with CSS.
 
-Build a small but functional project combining HTML, CSS, and JS.
+- Apply responsive design techniques with media queries.
+
+- Experiment with background blur effects and custom fonts.
+
+## 📸 Preview
+![Survey Form Screenshot](./images/survey-preview.jpeg)
