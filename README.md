@@ -66,4 +66,4 @@ survey-form/
 - Experiment with background blur effects and custom fonts.
 
 ## 📸 Preview
-![Survey Form Screenshot](./images/survey-preview.jpeg)
+![Survey Form Project Screenshot](./images/website-preview.jpeg)
