@@ -24,7 +24,7 @@ HTML – structure
 CSS – styling 
 
 ## 🚀 How to Use
-[View Live Project](https://midnight-developer-ts.github.io/survey-form/)
+[`View Live Project`](https://midnight-developer-ts.github.io/survey-form/)
 
 1. Fill in the required fields (Name, Email, Age).
 2. Select your role from the dropdown.
@@ -49,6 +49,8 @@ survey-form/ `root file`
 
 │   └── coding-background.png `background image`
 
+│── LICENSE `license details`
+
 │── README.md `project details`
 
 ## 📌 Learning Goals
@@ -67,7 +69,7 @@ Technical Documentation Page user stories and requirements.
 
 ![Survey Form Project Screenshot](./images/website-preview.jpeg)
 
-[View Live Project](https://midnight-developer-ts.github.io/survey-form/)
+[`View Live Project`](https://midnight-developer-ts.github.io/survey-form/)
 
 ## 📄 License 
 
