@@ -1,13 +1,12 @@
 # 📝 Midnight Developers Survey Form
 
 ## 📖 Overview
-This project is part of my FreeCodeCamp Responsive Web Design certification.
-The objective was to build a survey form using only HTML and CSS.
+This survey form was created as part of my Responsive Web Design certification through FreeCodeCamp. The objective of this project was to build a fully responsive survey form using only HTML and CSS. The form is designed to collect user feedback regarding website development and services, with a focus on modern design, clean structure, accessibility, and responsive layout that works seamlessly accross devices.
 
-The form is designed to collect user feedback regarding website development and services. It focuses on clean structure, accessibility, and a responsive layout that works seamlessly across devices.
+This project is currently a front-end demo. While the form includes validation and a confirmation popup after submission, it is not connected to a backend or database. Future improvements may include form submission handling and expanded functionality.
+
 
 ## ✨ Features
-
 - Responsive design that adapts to desktop and mobile screens.
 - Input fields with validation (name, email, age).
 - Dropdown menu for selecting role (Client, Employer, Developer, Other).
@@ -18,7 +17,6 @@ The form is designed to collect user feedback regarding website development and 
 - Blurred, darkened background effect for readability.
 
 ## 🛠️ Built With
-
 HTML – structure 
 
 CSS – styling 
@@ -54,25 +52,21 @@ survey-form/ `root file`
 │── README.md `project details`
 
 ## 📌 Learning Goals
-
 - Practice semantic HTML form structure.
 - Learn to style inputs, dropdowns, radio buttons, and checkboxes with CSS.
 - Apply responsive design techniques with media queries.
 - Experiment with background blur effects and custom fonts.
 
 ## 🎯 Certification Compliance
-
 This project fully meets all FreeCodeCamp Responsive Web Design
 Technical Documentation Page user stories and requirements.
 
 ## 📸 Preview
-
 ![Survey Form Project Screenshot](./images/website-preview.jpeg)
 
 [`View Live Project`](https://midnight-developer-ts.github.io/survey-form/)
 
 ## 📄 License 
-
 This project is provided for portfolio and educational review only. 
 Copying, redistribution, or commercial use is prohibited. 
 
