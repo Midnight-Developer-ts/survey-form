@@ -30,7 +30,7 @@ This project is currently a front-end demo. While the form includes validation a
 4. Submit to see the demo popup (form is not connected to a backend).
 
 ## 📂 Project Structure
-survey-form/ `root file`
+survey-form/ `root folder`
 
 │── index.html `main webpage`
 
@@ -70,4 +70,4 @@ This project is provided for portfolio and educational review only.
 Copying, redistribution, or commercial use is prohibited. 
 
 This project is licensed under a Midnight Developer Proprietary License. 
-See the [LICENSE](https://github.com/Midnight-Developer-ts/survey-form/blob/main/LICENSE) file for full terms.
+See the [LICENSE](https://github.com/Midnight-Developer-ts/midnight-developers-survey-form/blob/main/LICENSE) file for full terms.
