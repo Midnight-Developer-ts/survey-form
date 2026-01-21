@@ -17,12 +17,11 @@ This project is currently a front-end demo. While the form includes validation a
 - Blurred, darkened background effect for readability.
 
 ## 🛠️ Built With
-HTML – structure 
-
-CSS – styling 
+- HTML – structure 
+- CSS – styling 
 
 ## 🚀 How to Use
-[`View Live Project`](https://midnight-developer-ts.github.io/survey-form/)
+[`View Live Project`](https://midnight-developer-ts.github.io/midnight-developers-survey-form/)
 
 1. Fill in the required fields (Name, Email, Age).
 2. Select your role from the dropdown.
@@ -64,7 +63,7 @@ Technical Documentation Page user stories and requirements.
 ## 📸 Preview
 ![Survey Form Project Screenshot](./images/website-preview.jpeg)
 
-[`View Live Project`](https://midnight-developer-ts.github.io/survey-form/)
+[`View Live Project`](https://midnight-developer-ts.github.io/midnight-developers-survey-form/)
 
 ## 📄 License 
 This project is provided for portfolio and educational review only. 
