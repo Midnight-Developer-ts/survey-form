@@ -30,7 +30,7 @@ This project is currently a front-end demo. While the form includes validation a
 4. Submit to see the demo popup (form is not connected to a backend).
 
 ## 📂 Project Structure
-survey-form/ `root folder`
+midnight-developers-survey-form/ `root folder`
 
 │── index.html `main webpage`
 
@@ -38,7 +38,7 @@ survey-form/ `root folder`
 
 │   └── styles.css `styling`
 
-│── images/ `image folder`
+│── img/ `image folder`
 
 │ └── website-favicon.png `favicon`
 
@@ -58,10 +58,10 @@ survey-form/ `root folder`
 
 ## 🎯 Certification Compliance
 This project fully meets all FreeCodeCamp Responsive Web Design
-Technical Documentation Page user stories and requirements.
+Survey Form user stories and requirements.
 
 ## 📸 Preview
-![Survey Form Project Screenshot](./images/website-preview.jpeg)
+![Survey Form Project Screenshot](./img/website-preview.jpeg)
 
 [`View Live Project`](https://midnight-developer-ts.github.io/midnight-developers-survey-form/)
 
