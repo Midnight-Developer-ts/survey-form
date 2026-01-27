@@ -16,7 +16,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url('../images/coding-background.png');
+  background-image: url('https://vynxcode-ts.github.io/vynxcodes-survey-form/img/coding-background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
