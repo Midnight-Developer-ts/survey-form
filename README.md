@@ -1,4 +1,4 @@
-# 📝 Midnight Developers Survey Form
+# 📝 Vynxcode's Survey Form
 
 ## 📖 Overview
 This survey form was created as part of my Responsive Web Design certification through FreeCodeCamp. The objective of this project was to build a fully responsive survey form using only HTML and CSS. The form is designed to collect user feedback regarding website development and services, with a focus on modern design, clean structure, accessibility, and responsive layout that works seamlessly accross devices.
@@ -21,7 +21,7 @@ This project is currently a front-end demo. While the form includes validation a
 - CSS – styling 
 
 ## 🚀 How to Use
-[`View Live Project`](https://midnight-developer-ts.github.io/midnight-developers-survey-form/)
+[`View Live Project`](https://vynxcode-ts.github.io/vynxcodes-survey-form/)
 
 1. Fill in the required fields (Name, Email, Age).
 2. Select your role from the dropdown.
@@ -30,7 +30,7 @@ This project is currently a front-end demo. While the form includes validation a
 4. Submit to see the demo popup (form is not connected to a backend).
 
 ## 📂 Project Structure
-midnight-developers-survey-form/ `root folder`
+vynxcodes-survey-form/ `root folder`
 
 │── index.html `main webpage`
 
@@ -40,7 +40,7 @@ midnight-developers-survey-form/ `root folder`
 
 │── img/ `image folder`
 
-│ └── website-favicon.png `favicon`
+│ └── website-favicon.svg `favicon`
 
 │ └── website-preview.jpeg preview `image`
 
@@ -63,11 +63,11 @@ Survey Form user stories and requirements.
 ## 📸 Preview
 ![Survey Form Project Screenshot](./img/website-preview.jpeg)
 
-[`View Live Project`](https://midnight-developer-ts.github.io/midnight-developers-survey-form/)
+[`View Live Project`](https://vynxcode-ts.github.io/vynxcodes-survey-form/)
 
 ## 📄 License 
 This project is provided for portfolio and educational review only. 
 Copying, redistribution, or commercial use is prohibited. 
 
-This project is licensed under a Midnight Developer Proprietary License. 
-See the [LICENSE](https://github.com/Midnight-Developer-ts/midnight-developers-survey-form/blob/main/LICENSE) file for full terms.
+This project is licensed under a Vynxcode Proprietary License. 
+See the [LICENSE](https://github.com/vynxcode-ts/vynxcodes-survey-form/blob/main/LICENSE) file for full terms.
